@@ -1,0 +1,28 @@
+sistema
+usuario
+tweet
+
+------
+
+Sistema:
+- usuarios: List<usuario>
+
++crearUsuario():bool (no se pueden agregar 2 usuarios con mismo screenName)
+------
+
+Usuario:
+- tweets: List<tweet>
+_screenName: string (identifica usuario)
+
++crearTweet()
++eliminar()
+------
+
+Tweet: 
+_contenido: string (min 1 car, max 280)
+- tweetOrigen: tweet
+- tweetsQueRetuitearon_ List<tweet>
+
++retuitear(usuarioQueRetwitea): retweet //como hacerlo??
++eliminar()
+

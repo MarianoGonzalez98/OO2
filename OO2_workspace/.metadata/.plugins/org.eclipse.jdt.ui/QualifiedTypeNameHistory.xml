@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio3Presupuesto.Presupuesto"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.NoSuchFieldException"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio8DistElectrica.Distribuidora"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio8DistElectrica.Usuario"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.JobScheduler"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.Strategy"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.IStrategy"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.JobDescription"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio9CuentaConGanchos.CajaDeAhorro"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio9CuentaConGanchos.CuentaCorriente"/>
+    <fullyQualifiedTypeName name="java.time.Period"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio11Inversor.PlazoFijo"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio11Inversor.InversionEnAcciones"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio12VolumenSuperficie.ReporteDeConstruccion"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio12VolumenSuperficie.Cilindro"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio13ClienteDeCorreo.Email"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio13ClienteDeCorreo.Carpeta"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio13ClienteDeCorreo.ClienteDeCorreo"/>
+    <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio14IntervaloDeTiempo.DateLapse"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio14IntervaloDeTiempo.IDateLapse"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio14IntervaloDeTiempo.DateLapse2"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.Usuario"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.Reserva"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.DateLapse"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.ICancelacion"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio17Llamadas.Llamada"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio17Llamadas.Factura"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.Propiedad"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.CancelacionEstricta"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio17Llamadas.DateLapse"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

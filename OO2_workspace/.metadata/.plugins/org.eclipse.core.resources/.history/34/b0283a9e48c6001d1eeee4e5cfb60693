@@ -1,0 +1,9 @@
+package ar.edu.unlp.info.oo1.tp1_1_Red_social;
+
+import java.util.List;
+
+public class Usuario {
+	private List<Tweet> tweets;
+	private String screenName;
+	
+}

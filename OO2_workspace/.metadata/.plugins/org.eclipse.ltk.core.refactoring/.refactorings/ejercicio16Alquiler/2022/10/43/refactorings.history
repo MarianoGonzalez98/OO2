@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DateLapse.java&apos; to &apos;ejercicio17Llamadas/src/main/java/ar.edu.unlp.info.oo1.ejercicio17Llamadas&apos;&#x0D;&#x0A;- Original project: &apos;ejercicio16Alquiler&apos;&#x0D;&#x0A;- Destination element: &apos;ejercicio17Llamadas/src/main/java/ar.edu.unlp.info.oo1.ejercicio17Llamadas&apos;&#x0D;&#x0A;- Original element: &apos;ar.edu.unlp.info.oo1.ejercicio15Alquiler.DateLapse.java&apos;" description="Copy compilation unit" destination="=ejercicio17Llamadas/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;ar.edu.unlp.info.oo1.ejercicio17Llamadas" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;ar.edu.unlp.info.oo1.ejercicio15Alquiler{DateLapse.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1666290030198" units="1" version="1.0"/>
+</session>

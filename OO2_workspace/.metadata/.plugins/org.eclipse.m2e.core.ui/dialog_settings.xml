@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\workspace_oo1\ejercicioTestMaven"/>
+			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\workspace_oo1\ejercicio3BisBalanza\src\main\java\ar\edu\unlp\info\oo1\ejercicio2Balanza\Balanza.java"/>
+			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\workspace_oo1\ejercicio3BisBalanza"/>
+			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\workspace_oo1\ejercicio2Balanza\src\test\java\ar\edu\unlp\info\oo1\ejercicio2Balanza\ProductoTest.java"/>
+			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\workspace_oo1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="defaultLocal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="ar.edu.unlp.info.oo1.tp1_1_Red_social"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio18LiquidacionHaberes"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio17Llamadas"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio15Alquiler"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio14IntervaloDeTiempo"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio13ClienteDeCorreo"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio12VolumenSuperficie"/>
+			<item value="ar.edu.unlp.info.oo1.VolumenSolidos"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio11Inversor"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio9CuentaConGanchos"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio8DistElectrica"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio6Faroles"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio5Genealogia"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio4Figuras"/>
+			<item value="ar.edu.unlp.info.oo1.ejercicio3Presupuesto"/>
+		</list>
+		<list key="groupId">
+			<item value="ar.edu.unlp.info.oo1"/>
+		</list>
+		<list key="artifactId">
+			<item value="tp1_1_Red_social"/>
+			<item value="ejercicio18LiquidacionHaberes"/>
+			<item value="ejercicio17Llamadas"/>
+			<item value="ejercicio15Alquiler"/>
+			<item value="ejercicio14IntervaloDeTiempo"/>
+			<item value="ejercicio13ClienteDeCorreo"/>
+			<item value="ejercicio12VolumenSuperficie"/>
+			<item value="VolumenSolidos"/>
+			<item value="ejercicio11Inversor"/>
+			<item value="ejercicio9CuentaConGanchos"/>
+			<item value="ejercicio8DistElectrica"/>
+			<item value="ejercicio6Faroles"/>
+			<item value="ejercicio5Genealogia"/>
+			<item value="ejercicio4Figuras"/>
+			<item value="ejercicio3Presupuesto"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.0.0"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="E:\Facultad\Cursada 2023 1erCuatri\OO2\oo2_practica"/>
+			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\material_archivos\ejercicio1-wallpost"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

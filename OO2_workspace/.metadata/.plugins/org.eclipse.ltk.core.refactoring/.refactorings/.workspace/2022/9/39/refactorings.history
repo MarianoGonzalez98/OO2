@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ej10_jobScheduler&apos; to &apos;ejercicio10JobScheduler&apos;" description="Rename resource &apos;ej10_jobScheduler&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/ej10_jobScheduler" name="ejercicio10JobScheduler" stamp="1663806686125" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;ejercicio10JobScheduler&apos;" deleteContents="false" description="Delete resource &apos;ejercicio10JobScheduler&apos;" element1="/ejercicio10JobScheduler" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1663861502223"/>
+</session>
