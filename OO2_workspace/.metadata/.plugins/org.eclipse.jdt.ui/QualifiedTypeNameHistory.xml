@@ -41,9 +41,12 @@
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio17Llamadas.DateLapse"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.biblioteca.IExporter"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer.VideoStream"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer.MediaPlayer"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer.VideoStreamAdapter"/>
 </qualifiedTypeNameHistroy>

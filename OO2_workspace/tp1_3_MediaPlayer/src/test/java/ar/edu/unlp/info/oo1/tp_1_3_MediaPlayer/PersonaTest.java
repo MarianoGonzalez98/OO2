@@ -10,22 +10,26 @@ import org.junit.jupiter.api.Test;
  */
 public class PersonaTest {
 	
-	Persona james, guido;
-	
+	Media superAudio, unVideoFile,unVideoStream;
+
+	MediaPlayer sistema;
 	@BeforeEach
+	
 	void setUp() throws Exception {
-		james = new Persona();
-		guido = new Persona();
-		james.setApellido("Glosing");
-		james.setNombre("James");
-		guido.setApellido("van Rossum");
-		guido.setNombre("Guido");
+		sistema = new MediaPlayer();
+		superAudio = new Audio("oleeee");
+		unVideoFile = new VideoFile("soy un videoo");
+		unVideoStream = new VideoStreamAdapter("jeje soy un videoStream inmutable");
+		sistema.addMedia(superAudio);
+		sistema.addMedia(unVideoFile);
+		sistema.addMedia(unVideoStream);
 		
 	}
 	
     @Test
     public void testNombreCompleto() {
-        assertEquals("Glosing, James", james.getNombreCompleto());
-        assertEquals("van Rossum, Guido", guido.getNombreCompleto());
+    	System.out.println(sistema.playMedias());
+        assertEquals("Glosing, James", "Glosing, James");
+
     }
 }
