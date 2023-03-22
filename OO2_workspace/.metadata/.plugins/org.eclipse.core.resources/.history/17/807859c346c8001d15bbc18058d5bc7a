@@ -1,0 +1,17 @@
+package ar.edu.unlp.info.oo2.biblioteca;
+
+import java.util.List;
+
+import org.json.simple.JSONObject;
+
+public class JSONadapter implements IExporter{
+
+
+	public String exportar(List<Socio> socios) {
+		return null;
+	}
+	
+	private JSONObject socioAJson(Socio socio) {
+		JSONObject
+	}
+}
