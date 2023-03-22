@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="BibliotecaTest (1)" project="tp1_2_Biblioteca" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="ar.edu.unlp.info.oo2.biblioteca.BibliotecaTest" time="0.027" displayname="BibliotecaTest" uniqueid="[engine:junit-jupiter]/[class:ar.edu.unlp.info.oo2.biblioteca.BibliotecaTest]">
-    <testcase name="testNombreCompleto" classname="ar.edu.unlp.info.oo2.biblioteca.BibliotecaTest" time="0.027" displayname="testNombreCompleto()" uniqueid="[engine:junit-jupiter]/[class:ar.edu.unlp.info.oo2.biblioteca.BibliotecaTest]/[method:testNombreCompleto()]"/>
-  </testsuite>
-</testrun>
