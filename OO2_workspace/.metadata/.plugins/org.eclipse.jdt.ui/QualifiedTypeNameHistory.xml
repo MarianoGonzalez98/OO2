@@ -45,8 +45,12 @@
     <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.biblioteca.IExporter"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer.VideoStream"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer.MediaPlayer"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer.VideoStreamAdapter"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.Topografias.Topografia"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.Topografias.Parte"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.Topografias.SoloAgua"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.Topografias.Mixta"/>
 </qualifiedTypeNameHistroy>

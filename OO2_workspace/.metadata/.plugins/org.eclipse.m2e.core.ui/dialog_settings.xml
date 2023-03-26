@@ -30,6 +30,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo1.Topografias"/>
 			<item value="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer"/>
 			<item value="ar.edu.unlp.info.oo1.tp1_1_Red_social"/>
 			<item value="ar.edu.unlp.info.oo1.ejercicio18LiquidacionHaberes"/>
@@ -44,12 +45,12 @@
 			<item value="ar.edu.unlp.info.oo1.ejercicio8DistElectrica"/>
 			<item value="ar.edu.unlp.info.oo1.ejercicio6Faroles"/>
 			<item value="ar.edu.unlp.info.oo1.ejercicio5Genealogia"/>
-			<item value="ar.edu.unlp.info.oo1.ejercicio4Figuras"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.info.oo1"/>
 		</list>
 		<list key="artifactId">
+			<item value="Topografias"/>
 			<item value="tp_1_3_MediaPlayer"/>
 			<item value="tp1_1_Red_social"/>
 			<item value="ejercicio18LiquidacionHaberes"/>
@@ -64,7 +65,6 @@
 			<item value="ejercicio8DistElectrica"/>
 			<item value="ejercicio6Faroles"/>
 			<item value="ejercicio5Genealogia"/>
-			<item value="ejercicio4Figuras"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

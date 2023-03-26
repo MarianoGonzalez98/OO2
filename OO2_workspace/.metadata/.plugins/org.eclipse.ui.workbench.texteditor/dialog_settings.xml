@@ -8,6 +8,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="Topografia"/>
+			<item value="int"/>
 			<item value="al"/>
 			<item value="&#x09;&#x09;if (madre!=null) {"/>
 		</list>
