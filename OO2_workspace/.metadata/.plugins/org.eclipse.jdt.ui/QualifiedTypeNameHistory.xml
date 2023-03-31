@@ -39,7 +39,6 @@
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.Propiedad"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.CancelacionEstricta"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio17Llamadas.DateLapse"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
@@ -48,9 +47,13 @@
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer.MediaPlayer"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer.VideoStreamAdapter"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.Topografias.Topografia"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.Topografias.Parte"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.Topografias.SoloAgua"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.Topografias.Mixta"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
