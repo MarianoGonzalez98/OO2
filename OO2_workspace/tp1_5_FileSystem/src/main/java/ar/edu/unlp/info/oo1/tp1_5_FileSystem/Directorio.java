@@ -46,13 +46,16 @@ public class Directorio extends Composite{
 		
 	}
 
-	@Override
 	public Archivo archivoMasNuevo() {
-		// TODO Auto-generated method stub
-		return null;
+		Archivo resultado = contenido.stream()
+			.map(e -> e.archivoMasNuevo())
+			.filter(e -> e != null) //esto filtra los directorios vacios
+			.max((e1,e2) -> e1.getFecha().compareTo(e2.getFecha()))
+			.orElse(null);
+		
+		return resultado;
+		
 	}
-
-
 
 	
 	

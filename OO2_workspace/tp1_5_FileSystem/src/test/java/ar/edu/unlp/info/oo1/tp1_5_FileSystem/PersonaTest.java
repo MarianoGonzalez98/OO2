@@ -67,7 +67,7 @@ public class PersonaTest {
         assertEquals(backup2015, conSubdirectorios.archivoMasGrande());
     }
 
-    
+    @Test
     void testArchivoMasNuevo() {
         assertEquals(null, vacio.archivoMasNuevo());
         assertEquals("config.bak", conUnArchivo.archivoMasNuevo().getNombre());
