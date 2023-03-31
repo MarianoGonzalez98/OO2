@@ -28,7 +28,7 @@ class TopografiasTest {
 		mar4 = new SoloAgua();
 		desierto4 = new SoloTierra();
 		
-		mixta = new Mixta(mar, mar1, mar2, mar3);
+		mixta = new Mixta(mar, mar1, mar2, desierto);
 		
 		mixta1= new Mixta(mar,desierto,desierto,desierto);
 		
@@ -39,13 +39,13 @@ class TopografiasTest {
 
 	@Test
 	void test() {
-		assertTrue(mar.equals(mixta));
-		assertTrue(mixta.equals(mar));
+		assertFalse(mar.equals(mixta));
+		assertFalse(mixta.equals(mar));
 		
 		assertFalse(mixta.equals(mixta1));
 		assertTrue(mixta1.equals(mixta2));
 		
-		assertTrue(superMixta.equals(mixta1));
+		assertFalse(superMixta.equals(mixta1));
 		
 		
 	}

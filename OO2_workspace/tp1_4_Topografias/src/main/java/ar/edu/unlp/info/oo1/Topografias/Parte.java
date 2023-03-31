@@ -1,9 +1,6 @@
 package ar.edu.unlp.info.oo1.Topografias;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public abstract class Parte implements Topografia{
+public abstract class Parte extends Topografia{
 	private double proporcionAgua;
 	
 	public Parte(double proporcionAgua) {
@@ -16,23 +13,5 @@ public abstract class Parte implements Topografia{
 	
 	public double getProporcionTierra() {
 		return 1.0-proporcionAgua;
-	}
-	
-	public List<Topografia> getTopografias(){
-		List<Topografia> lista = new ArrayList<Topografia>();
-		for (int i = 0; i < 4; i++) {
-			lista.add(this);
-		}
-		return lista;
-	}
-	
-	
-	public boolean equals(Object obj) {
-		if (obj == null)
-			return false;
-		
-		Topografia top = (Topografia)obj;
-		
-		return this.getProporcionAgua() == top.getProporcionAgua();
 	}
 }

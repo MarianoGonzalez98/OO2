@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Mixta implements Topografia{
+public class Mixta extends Topografia{
 	private List<Topografia> partes;
 	
 	public Mixta(Topografia parte1,Topografia parte2,Topografia parte3,Topografia parte4) {
@@ -29,18 +29,20 @@ public class Mixta implements Topografia{
 		return partes;
 	}
 	
-	public boolean equals(Object obj) {
-		if (obj == null)
-			return false;
-		
-		Topografia top = (Topografia)obj;
+	@Override
+	public boolean igualMixta(Mixta topoMixta) {
+		return Objects.equals(partes, topoMixta.getTopografias());
+	}
+	
+	
+	public boolean igual(Topografia top) {
 
 		//si no tienen la misma proporcion 
 		if (this.getProporcionAgua()!= top.getProporcionAgua()) {
 			return false;
 		}
 		
-		return Objects.equals(partes, top.getTopografias());
+		return top.igualMixta(this);
 
 	}
 
