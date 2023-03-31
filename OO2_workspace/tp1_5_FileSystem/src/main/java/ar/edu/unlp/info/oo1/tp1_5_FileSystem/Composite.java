@@ -16,9 +16,7 @@ public abstract class Composite {
 	public abstract int tamanoTotalOcupado();
 	public abstract Archivo archivoMasGrande();
 	public abstract Archivo archivoMasNuevo();
-	//public abstract int tamanioArchivoMasGrande();
 	
-	public abstract boolean esArchivo();
 
 	public String getNombre() {
 		return nombre;

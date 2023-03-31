@@ -23,11 +23,13 @@ public class Archivo extends Composite	{
 
 	@Override
 	public Archivo archivoMasNuevo() {
-		// TODO Auto-generated method stub
 		return this;
 	}
 	
-	public boolean esArchivo() {
-		return true;
+	public int tieneFechaPosteriorA(Archivo arc) {
+		return this.getFecha().compareTo(arc.getFecha());
 	}
+	
+	
+
 }

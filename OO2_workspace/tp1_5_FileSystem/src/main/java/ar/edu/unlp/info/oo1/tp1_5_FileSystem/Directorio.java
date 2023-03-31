@@ -22,9 +22,6 @@ public class Directorio extends Composite{
 		contenido.add(elemento);
 	}
 	
-	public boolean esArchivo() {
-		return false;
-	}
 	
 	public int tamanoTotalOcupado() {
 		int tamanioContenido = contenido.stream()
@@ -50,7 +47,7 @@ public class Directorio extends Composite{
 		Archivo resultado = contenido.stream()
 			.map(e -> e.archivoMasNuevo())
 			.filter(e -> e != null) //esto filtra los directorios vacios
-			.max((e1,e2) -> e1.getFecha().compareTo(e2.getFecha()))
+			.max((e1,e2) -> e1.tieneFechaPosteriorA(e2))
 			.orElse(null);
 		
 		return resultado;
