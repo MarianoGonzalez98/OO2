@@ -32,16 +32,14 @@ public class Directorio extends Composite{
 	
 	
 	public Archivo archivoMasGrande() {
-		Archivo resultado = contenido.stream()
-			.map(e -> e.archivoMasGrande())
-			.filter(e -> e != null) //esto filtra los directorios vacios
-			.max((e1,e2) -> Integer.compare(
-					e1.getTamano(), e2.getTamano()))
-			.orElse(null);
-		
-		return resultado;
-		
+		return contenido.stream()
+				.map(a -> a.archivoMasGrande())
+				.filter(e -> e != null) //esto filtra los directorios vacios
+				.max((a1,a2)-> Integer.compare(a1.getTamano(), a2.getTamano()))
+				.orElse(null);
 	}
+		
+
 
 	public Archivo archivoMasNuevo() {
 		Archivo resultado = contenido.stream()

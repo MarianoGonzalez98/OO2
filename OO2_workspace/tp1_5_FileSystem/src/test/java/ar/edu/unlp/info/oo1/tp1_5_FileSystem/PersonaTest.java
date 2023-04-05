@@ -16,6 +16,7 @@ public class PersonaTest {
 	Persona james, guido;
 	
     private Directorio vacio;
+    private Directorio vacio2;
     private Directorio conUnArchivo;
     private Directorio conVariosArchivos;
     private Directorio conSubdirectorios;
@@ -42,6 +43,8 @@ public class PersonaTest {
         postgres.agregar(new Archivo("pg03.log", LocalDate.of(2016, 2, 13), 4000000));
         // Directorio vacío
         vacio = new Directorio("home", date);
+        vacio2 = new Directorio("home2", date);
+        vacio.agregar(vacio2);
         //"Directorio con un solo archivo"
         conUnArchivo = new Directorio("var", date);
         Archivo config = new Archivo("config.bak", LocalDate.of(2016, 4, 2), 128);
