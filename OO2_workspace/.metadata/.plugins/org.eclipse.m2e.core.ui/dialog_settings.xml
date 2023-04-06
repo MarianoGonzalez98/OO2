@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Facultad\Cursada 2023 1erCuatri\OO2\OO2_workspace\tp1_4_Topografias"/>
 			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\workspace_oo1\ejercicioTestMaven"/>
 			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\workspace_oo1\ejercicio3BisBalanza\src\main\java\ar\edu\unlp\info\oo1\ejercicio2Balanza\Balanza.java"/>
 			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\workspace_oo1\ejercicio3BisBalanza"/>
@@ -30,6 +31,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo1.tp1_7_ToDoItem"/>
+			<item value="ar.edu.unlp.info.oo1.tp1_6_CalculoSueldos"/>
 			<item value="ar.edu.unlp.info.oo1.tp1_5_FileSystem"/>
 			<item value="ar.edu.unlp.info.oo1.Topografias"/>
 			<item value="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer"/>
@@ -43,13 +46,13 @@
 			<item value="ar.edu.unlp.info.oo1.VolumenSolidos"/>
 			<item value="ar.edu.unlp.info.oo1.ejercicio11Inversor"/>
 			<item value="ar.edu.unlp.info.oo1.ejercicio9CuentaConGanchos"/>
-			<item value="ar.edu.unlp.info.oo1.ejercicio8DistElectrica"/>
-			<item value="ar.edu.unlp.info.oo1.ejercicio6Faroles"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.info.oo1"/>
 		</list>
 		<list key="artifactId">
+			<item value="tp1_7_ToDoItem"/>
+			<item value="tp1_6_CalculoSueldos"/>
 			<item value="tp1_5_FileSystem"/>
 			<item value="Topografias"/>
 			<item value="tp_1_3_MediaPlayer"/>
@@ -63,8 +66,6 @@
 			<item value="VolumenSolidos"/>
 			<item value="ejercicio11Inversor"/>
 			<item value="ejercicio9CuentaConGanchos"/>
-			<item value="ejercicio8DistElectrica"/>
-			<item value="ejercicio6Faroles"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
