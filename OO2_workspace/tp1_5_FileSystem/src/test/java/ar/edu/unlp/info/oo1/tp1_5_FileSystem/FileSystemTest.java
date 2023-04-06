@@ -11,10 +11,8 @@ import org.junit.jupiter.api.Test;
  * Aca escribiremos los test de unidad para cada clase 
  * 
  */
-public class PersonaTest {
-	
-	Persona james, guido;
-	
+public class FileSystemTest {
+		
     private Directorio vacio;
     private Directorio vacio2;
     private Directorio conUnArchivo;
@@ -80,7 +78,7 @@ public class PersonaTest {
 
     @Test
     void testTamanoTotalOcupado() {
-        assertEquals(32, vacio.tamanoTotalOcupado());
+        assertEquals(64, vacio.tamanoTotalOcupado()); //32 del directorio vacio + 32 del dir vacio2
         assertEquals(160, conUnArchivo.tamanoTotalOcupado()); //32 del directorio + 128 del archivo
         assertEquals(2010042, conVariosArchivos.tamanoTotalOcupado()); //  2M de grande + 10K + 0 + 10 + 32 directorio
         assertEquals(256690128, conSubdirectorios.tamanoTotalOcupado());
