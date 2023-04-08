@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Float"/>
-    <fullyQualifiedTypeName name="java.lang.NoSuchFieldException"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio8DistElectrica.Distribuidora"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio8DistElectrica.Usuario"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.JobScheduler"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.stream.Collector"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_9_Encriptador.ConexionSegura"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_9_Encriptador.EncriptadorBlowfish"/>
 </qualifiedTypeNameHistroy>
