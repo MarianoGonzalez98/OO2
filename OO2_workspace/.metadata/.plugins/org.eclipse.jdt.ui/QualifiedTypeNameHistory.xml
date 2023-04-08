@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.Float"/>
     <fullyQualifiedTypeName name="java.lang.NoSuchFieldException"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio8DistElectrica.Distribuidora"/>
@@ -34,7 +33,6 @@
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.Propiedad"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio15Alquiler.CancelacionEstricta"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio17Llamadas.DateLapse"/>
-    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
     <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.biblioteca.IExporter"/>
@@ -48,11 +46,8 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_6_CalculoSueldos.EmpleadoConFamilia"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_7_ToDoItem.InProgress"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="java.time.LocalTime"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_7_ToDoItem.ItemState"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 </qualifiedTypeNameHistroy>
