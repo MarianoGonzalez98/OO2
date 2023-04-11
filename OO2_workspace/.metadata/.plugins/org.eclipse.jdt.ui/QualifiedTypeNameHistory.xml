@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio8DistElectrica.Distribuidora"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio8DistElectrica.Usuario"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.JobScheduler"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.Strategy"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.IStrategy"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.JobDescription"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio9CuentaConGanchos.CajaDeAhorro"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_9_Encriptador.ConexionSegura"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_9_Encriptador.EncriptadorBlowfish"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_13_AccesoBD.DatabaseAccess"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_13_AccesoBD.DatabaseRealAccess"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_13_AccesoBD.DatabaseConAutenticacion"/>
+    <fullyQualifiedTypeName name="java.io.Console"/>
 </qualifiedTypeNameHistroy>

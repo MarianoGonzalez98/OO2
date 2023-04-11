@@ -31,6 +31,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo1.tp1_13_AccesoBD"/>
 			<item value="ar.edu.unlp.info.oo1.tp1_9_Encriptador"/>
 			<item value="ar.edu.unlp.info.oo1.pt1_8_Excursiones"/>
 			<item value="ar.edu.unlp.info.oo1.tp1_7_ToDoItem"/>
@@ -45,12 +46,12 @@
 			<item value="ar.edu.unlp.info.oo1.ejercicio14IntervaloDeTiempo"/>
 			<item value="ar.edu.unlp.info.oo1.ejercicio13ClienteDeCorreo"/>
 			<item value="ar.edu.unlp.info.oo1.ejercicio12VolumenSuperficie"/>
-			<item value="ar.edu.unlp.info.oo1.VolumenSolidos"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.info.oo1"/>
 		</list>
 		<list key="artifactId">
+			<item value="tp1_13_AccesoBD"/>
 			<item value="tp1_9_Encriptador"/>
 			<item value="pt1_8_Excursiones"/>
 			<item value="tp1_7_ToDoItem"/>
@@ -65,7 +66,6 @@
 			<item value="ejercicio14IntervaloDeTiempo"/>
 			<item value="ejercicio13ClienteDeCorreo"/>
 			<item value="ejercicio12VolumenSuperficie"/>
-			<item value="VolumenSolidos"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
