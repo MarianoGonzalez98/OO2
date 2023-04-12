@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.IStrategy"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ej10_jobScheduler.JobDescription"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio9CuentaConGanchos.CajaDeAhorro"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio9CuentaConGanchos.CuentaCorriente"/>
-    <fullyQualifiedTypeName name="java.time.Period"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio11Inversor.PlazoFijo"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio11Inversor.InversionEnAcciones"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio12VolumenSuperficie.ReporteDeConstruccion"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio12VolumenSuperficie.Cilindro"/>
@@ -49,8 +43,6 @@
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_7_ToDoItem.ItemState"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.stream.Collector"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_13_AccesoBD.DatabaseRealAccess"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_13_AccesoBD.DatabaseConAutenticacion"/>
     <fullyQualifiedTypeName name="java.io.Console"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_14_FileManager.DecoratorVisualizacion"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_14_FileManager.FileOO2"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_14_FileManager.ArchivoComponent"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_14_FileManager.ConcatenaNombre"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_14_FileManager.ConcatenaExtension"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
