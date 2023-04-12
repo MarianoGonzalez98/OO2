@@ -8,7 +8,7 @@ public class ConcatenaNombre extends DecoratorVisualizacion{
 	}
 	
 	public String prettyPrint() {
-		return super.prettyPrint() + super.getNombre() + " - ";
+		return super.prettyPrint() + super.getNombre() + " - "; //sacarle SUPER A GETNMOMBRE
 	}
 
 }
