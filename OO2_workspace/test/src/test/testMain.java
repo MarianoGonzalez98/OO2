@@ -1,4 +1,7 @@
 package test;
+
+import java.util.Iterator;
+
 public class testMain {
 	double x;
 	static double varGlobal1; //se inicializa automáticamente en 0.0
@@ -12,6 +15,8 @@ public class testMain {
 		varLocal1 = 2;
 		varGlobal1 = 1.0;
 		System.out.println("variables: "+ varGlobal1 +" "+ varGlobal2 +" "+variable +" "+j);
+		int i;
+		//for ( ; ; ) {		}
 	}
 	
 }
