@@ -8,7 +8,8 @@ public class testMain {
 	static StringBuilder varGlobal2;	//se inicializa automáticamente en null
 	static int variable = 1; //se inicializa automáticamente en 0
 	public static void main(String[] args) {
-		varGlobal2 = new StringBuilder("asd"); //la variable ahora contiene la direccion de memoria de la heap
+		varGlobal2 = new StringBuilder("ad"); //la variable ahora contiene la direccion de memoria de la heap
+		variable=4;
 		double varLocal1; //no se inicializa con ningún valor
 		int j = 3;
 		double variable = 4.0;
