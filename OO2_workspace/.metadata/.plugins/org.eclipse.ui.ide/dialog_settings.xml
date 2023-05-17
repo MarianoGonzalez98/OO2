@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\Facultad\Cursada 2023 1erCuatri\OO2\oo2_practica\facturacion_llamadas"/>
 			<item value="E:\Facultad\Cursada 2022 2do cuatri\OO1\material_archivos"/>
 		</list>
 	</section>

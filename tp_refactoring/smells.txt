@@ -1,0 +1,5 @@
+Persona
+
+Envidia de atributo (en agregarTelefono)
+codigo duplicado
+Condicionales
