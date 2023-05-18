@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio11Inversor.InversionEnAcciones"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio12VolumenSuperficie.ReporteDeConstruccion"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio12VolumenSuperficie.Cilindro"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio13ClienteDeCorreo.Email"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_14_FileManager.ConcatenaNombre"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_14_FileManager.ConcatenaExtension"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.facturacion_llamadas.GuiaTelefonica"/>
 </qualifiedTypeNameHistroy>

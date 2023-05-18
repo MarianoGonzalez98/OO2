@@ -1,17 +1,10 @@
-package ar.edu.unlp.info.oo2.facturacion_llamadas;
+package ar.edu.unlp.info.oo2.facturacion_llamadas.original;
 
 public class Llamada {
 	protected String tipoDeLlamada;
 	private String emisor;
 	private String remitente;
-	private int duracion;
-	
-	public int getDuracion() {
-		return duracion;
-	}
-	public void setDuracion(int duracion) {
-		this.duracion = duracion;
-	}
+	public int dur;
 	
 	public Llamada() {
 		
@@ -20,7 +13,7 @@ public class Llamada {
 		this.tipoDeLlamada = s;
 		this.emisor= p;
 		this.remitente= p2;
-		this.duracion = dur;
+		this.dur = dur;
 	}
 
 	public String getTipoDeLlamada() {
