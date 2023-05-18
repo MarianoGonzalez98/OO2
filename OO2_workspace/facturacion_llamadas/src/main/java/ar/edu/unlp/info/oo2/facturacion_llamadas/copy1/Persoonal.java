@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.oo2.facturacion_llamadas;
+package ar.edu.unlp.info.oo2.facturacion_llamadas.copy1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +11,8 @@ public class Persoonal {
 	List<Llamada> llamadas = new ArrayList<Llamada>();
 	private SortedSet<String> guiaTelefonos = new TreeSet<String>();
 
+
+	
 	static double descuentoJur = 0.15;
 	static double descuentoFis = 0;
 	
@@ -24,10 +26,19 @@ public class Persoonal {
 		}
 	}
 	
-	public Persoona registrarUsuario(Persoona usuario) {
+	public Persoona registrarUsuario(String identificacion, String nombre, String tipo) {
+		Persoona usuario = new Persoona();
+		usuario.setNombreApellido(nombre);
+		usuario.setTipo(tipo);
 		String telefono = this.getGuia().last();
 		usuario.setTelefono(telefono);
 		this.getGuia().remove(telefono);
+		if (tipo.equals("fisica")) {
+			usuario.setDni(identificacion);
+		}
+		else if (tipo.equals("juridica")) {
+			usuario.setCuit(identificacion);
+		}
 		usuario.setSistema(this); 
 		usuarios.add(usuario);
 		return usuario;

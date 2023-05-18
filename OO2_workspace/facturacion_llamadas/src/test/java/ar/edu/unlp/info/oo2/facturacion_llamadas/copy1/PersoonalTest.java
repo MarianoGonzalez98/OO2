@@ -1,4 +1,4 @@
-package ar.edu.unlp.info.oo2.facturacion_llamadas;
+package ar.edu.unlp.info.oo2.facturacion_llamadas.copy1;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -18,11 +18,10 @@ class PersoonalTest {
 		this.sistema.agregarTelefono("2214444556");
 		this.sistema.agregarTelefono("2214444557");
 		
-
-		this.emisorPersonaFisca = sistema.registrarUsuario(new PersonaFisica("11555666", "Marcelo Tinelli"));
-		this.remitentePersonaFisica = sistema.registrarUsuario(new PersonaFisica("00000001", "Mirtha Legrand"));
-		this.emisorPersonaJuridica = sistema.registrarUsuario(new PersonaJuridica("17555222", "Felfort"));
-		this.remitentePersonaJuridica = sistema.registrarUsuario(new PersonaJuridica("25765432", "Moovistar"));
+		this.emisorPersonaFisca = sistema.registrarUsuario("11555666", "Marcelo Tinelli" , "fisica");
+		this.remitentePersonaFisica = sistema.registrarUsuario("00000001", "Mirtha Legrand" , "fisica");
+		this.emisorPersonaJuridica = sistema.registrarUsuario("17555222", "Felfort" , "juridica");
+		this.remitentePersonaJuridica = sistema.registrarUsuario("25765432", "Moovistar" , "juridica");
 		
 		this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, "nacional", 10);
 		this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, "internacional", 8);
@@ -47,7 +46,7 @@ class PersoonalTest {
 	void testAgregarUsuario() {
 		assertEquals(this.sistema.cantidadDeUsuarios(), 4);
 		this.sistema.agregarTelefono("2214444558"); 
-		Persoona nuevaPersona = this.sistema.registrarUsuario(new PersonaFisica("2444555","Chiche Gelblung"));
+		Persoona nuevaPersona = this.sistema.registrarUsuario("2444555","Chiche Gelblung", "fisica");
 		
 		assertEquals(this.sistema.cantidadDeUsuarios(), 5);
 		assertTrue(this.sistema.existeUsuario(nuevaPersona));
