@@ -59,15 +59,10 @@ public class Persoonal {
 	
 	public double calcularMontoTotalLlamadas(Persoona p) {
 		double c = 0;
-		Persoona aux = null;
-		for (Persoona pp : usuarios) {
-			if (pp.getTelefono() == p.getTelefono()) {
-				aux = pp;
-				break;
-			}
-		} if (aux == null) return c;
-		if (aux != null) {
-			for (Llamada l : aux.getLlamadas()) {
+		Persoona usuario = usuarios.stream().filter( u -> u.tieneTelefono(p)).findFirst().orElse(null);
+		if (usuario == null) return c;
+		if (usuario != null) {
+			for (Llamada l : usuario.getLlamadas()) {
 				double auxc = 0;
 				if (l.tipoDeLlamada == "nacional") {
 					auxc += l.getDuracion() *3 + (l.getDuracion()*3*0.21);
@@ -75,9 +70,9 @@ public class Persoonal {
 					auxc += l.getDuracion() *200 + (l.getDuracion()*200*0.21);
 				}
 				
-				if (aux.getTipo() == "fisica") {
+				if (usuario.getTipo() == "fisica") {
 					auxc -= auxc*descuentoFis;
-				} else if(aux.getTipo() == "juridica") {
+				} else if(usuario.getTipo() == "juridica") {
 					auxc -= auxc*descuentoJur;
 				}
 				c += auxc;

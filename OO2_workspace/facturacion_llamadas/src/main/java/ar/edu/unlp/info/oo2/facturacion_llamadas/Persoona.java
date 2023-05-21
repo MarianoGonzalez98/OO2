@@ -9,8 +9,13 @@ public abstract class Persoona {
 	private String nombreApellido;
 	private String telefono;
 	private Persoonal sistema;
+	
 	public Persoona(String nombreApellido) {
 		this.nombreApellido = nombreApellido;
+	}
+	
+	public boolean tieneTelefono(Persoona p) {
+		return this.getTelefono().equals(p.getTelefono());
 	}
 	
 	public List<Llamada> getLlamadas() {
