@@ -45,15 +45,10 @@ public class Persoonal {
 		
 	}
 	
-	public Llamada registrarLlamada(Persoona q, Persoona q2, String t, int d) {
-		Llamada x = new Llamada();
-		x.tipoDeLlamada = t;
-		x.setEmisor(q.getTelefono());
-		x.setRemitente(q2.getTelefono());
-		x.setDuracion(d);
-		llamadas.add(x);
-		q.getLlamadas().add(x);
-		return x;
+	public Llamada registrarLlamada(Persoona emisor, Llamada llamada) {
+		llamadas.add(llamada);
+		emisor.getLlamadas().add(llamada);
+		return llamada;
 		
 	}
 	
@@ -64,12 +59,7 @@ public class Persoonal {
 		if (usuario != null) {
 			for (Llamada l : usuario.getLlamadas()) {
 				double auxc = 0;
-				if (l.tipoDeLlamada == "nacional") {
-					auxc += l.getDuracion() *3 + (l.getDuracion()*3*0.21);
-				} else if (l.tipoDeLlamada == "internacional") {
-					auxc += l.getDuracion() *200 + (l.getDuracion()*200*0.21);
-				}
-				
+				auxc += l.calcularCosto();
 				if (usuario.getTipo() == "fisica") {
 					auxc -= auxc*descuentoFis;
 				} else if(usuario.getTipo() == "juridica") {

@@ -24,14 +24,14 @@ class PersoonalTest {
 		this.emisorPersonaJuridica = sistema.registrarUsuario(new PersonaJuridica("17555222", "Felfort"));
 		this.remitentePersonaJuridica = sistema.registrarUsuario(new PersonaJuridica("25765432", "Moovistar"));
 		
-		this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, "nacional", 10);
-		this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaFisica, "internacional", 8);
-		this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, "nacional", 5);
-		this.sistema.registrarLlamada(emisorPersonaJuridica, remitentePersonaJuridica, "internacional", 7);
-		this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, "nacional", 15);
-		this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaFisica, "internacional", 45);
-		this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, "nacional", 13);
-		this.sistema.registrarLlamada(emisorPersonaFisca, remitentePersonaJuridica, "internacional", 17);
+		this.sistema.registrarLlamada(emisorPersonaJuridica,new LlamadaNacional(emisorPersonaJuridica, remitentePersonaFisica, 10));
+		this.sistema.registrarLlamada(emisorPersonaJuridica,new LlamadaInternacional(emisorPersonaJuridica,remitentePersonaFisica, 8));
+		this.sistema.registrarLlamada(emisorPersonaJuridica, new LlamadaNacional(emisorPersonaJuridica,remitentePersonaJuridica, 5));
+		this.sistema.registrarLlamada(emisorPersonaJuridica, new LlamadaInternacional(emisorPersonaJuridica,remitentePersonaJuridica, 7));
+		this.sistema.registrarLlamada(emisorPersonaFisca, new LlamadaNacional( emisorPersonaFisca,remitentePersonaFisica, 15));
+		this.sistema.registrarLlamada(emisorPersonaFisca, new LlamadaInternacional(emisorPersonaFisca,remitentePersonaFisica, 45));
+		this.sistema.registrarLlamada(emisorPersonaFisca, new LlamadaNacional(emisorPersonaFisca,remitentePersonaJuridica, 13));
+		this.sistema.registrarLlamada(emisorPersonaFisca, new LlamadaInternacional(emisorPersonaFisca,remitentePersonaJuridica, 17));
 		
 	}
 

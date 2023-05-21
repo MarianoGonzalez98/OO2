@@ -1,9 +1,9 @@
 package ar.edu.unlp.info.oo2.facturacion_llamadas;
 
-public class Llamada {
+public abstract class Llamada {
 	protected String tipoDeLlamada;
-	private String emisor;
-	private String remitente;
+	private Persoona emisor;
+	private Persoona remitente;
 	private int duracion;
 	
 	public int getDuracion() {
@@ -12,35 +12,25 @@ public class Llamada {
 	public void setDuracion(int duracion) {
 		this.duracion = duracion;
 	}
-	
-	public Llamada() {
-		
-	}
-	public Llamada(String s, String p, String p2, Persoona p3, int dur) {
-		this.tipoDeLlamada = s;
-		this.emisor= p;
-		this.remitente= p2;
-		this.duracion = dur;
-	}
-
-	public String getTipoDeLlamada() {
-		return tipoDeLlamada;
+	public Llamada(Persoona emisor, Persoona remitente, int duracion) {
+		this.emisor= emisor;
+		this.remitente= remitente;
+		this.duracion = duracion;
 	}
 
 	public void setTipoDeLlamada(String tipoDeLlamada) {
 		this.tipoDeLlamada = tipoDeLlamada;
 	}
-	public void setEmisor(String q) {
-		emisor = q;
+
+	public Persoona getEmisor() {
+		return this.emisor;
 	}
-	public String getRemitente() {
+	public Persoona getRemitente() {
 		return remitente;
 	}
-	public void setRemitente(String remitente) {
-		this.remitente = remitente;
-	}
+
 	
-	
+	abstract public double calcularCosto();
 	
 	
 }
