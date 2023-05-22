@@ -10,9 +10,6 @@ public class Persoonal {
 	List<Persoona> usuarios = new ArrayList<Persoona>();
 	List<Llamada> llamadas = new ArrayList<Llamada>();
 	private SortedSet<String> guiaTelefonos = new TreeSet<String>();
-
-	static double descuentoJur = 0.15;
-	static double descuentoFis = 0;
 	
 	public void agregarTelefono(String str) {
 		boolean encontre = this.getGuia().contains(str);
@@ -53,22 +50,16 @@ public class Persoonal {
 	}
 	
 	public double calcularMontoTotalLlamadas(Persoona p) {
-		double c = 0;
+		double costoTotal = 0;
 		Persoona usuario = usuarios.stream().filter( u -> u.tieneTelefono(p)).findFirst().orElse(null);
-		if (usuario == null) return c;
+		if (usuario == null) return costoTotal;
 		if (usuario != null) {
-			for (Llamada l : usuario.getLlamadas()) {
-				double auxc = 0;
-				auxc += l.calcularCosto();
-				if (usuario.getTipo() == "fisica") {
-					auxc -= auxc*descuentoFis;
-				} else if(usuario.getTipo() == "juridica") {
-					auxc -= auxc*descuentoJur;
-				}
-				c += auxc;
+			for (Llamada llamada : usuario.getLlamadas()) {
+				double descuentoLlamada = llamada.calcularCosto() *usuario.getDescuentoLlamada();
+				costoTotal += llamada.calcularCosto() - descuentoLlamada;
 			}
 		}
-		return c;
+		return costoTotal;
 	}
 
 	public int cantidadDeUsuarios() {

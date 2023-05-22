@@ -12,7 +12,7 @@ public class PersonaFisica extends Persoona{
 	public void setDni(String dni) {
 		this.dni = dni;
 	}
-	public String getTipo() {
-		return "fisica";
+	public double getDescuentoLlamada() {
+		return 0.0;
 	}
 }

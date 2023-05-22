@@ -12,7 +12,7 @@ public class PersonaJuridica extends Persoona{
 	public void setCuit(String cuit) {
 		this.cuit = cuit;
 	}
-	public String getTipo() {
-		return "juridica";
+	public double getDescuentoLlamada() {
+		return 0.15;
 	}
 }
