@@ -41,6 +41,8 @@ public abstract class Persoona {
 	}
 	public abstract double getDescuentoLlamada();
 	
+	//agregar atributo descuento aca
+	
 
 	
 
