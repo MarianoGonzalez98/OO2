@@ -55,7 +55,7 @@ public class Persoonal {
 		if (usuario == null) return costoTotal;
 		if (usuario != null) {
 			for (Llamada llamada : usuario.getLlamadas()) {
-				double descuentoLlamada = llamada.calcularCosto() *usuario.getDescuentoLlamada();
+				double descuentoLlamada = llamada.calcularCosto() *usuario.getPorcentajeDescuento();
 				costoTotal += llamada.calcularCosto() - descuentoLlamada;
 			}
 		}
