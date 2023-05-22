@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 
 public class Persoonal {
 	List<Persoona> usuarios = new ArrayList<Persoona>();
-	List<Llamada> llamadas = new ArrayList<Llamada>();
 	private SortedSet<String> guiaTelefonos = new TreeSet<String>();
 	
 	public void agregarTelefono(String str) {
@@ -43,23 +42,13 @@ public class Persoonal {
 	}
 	
 	public Llamada registrarLlamada(Persoona emisor, Llamada llamada) {
-		llamadas.add(llamada);
 		emisor.getLlamadas().add(llamada);
 		return llamada;
 		
 	}
 	
-	public double calcularMontoTotalLlamadas(Persoona p) {
-		double costoTotal = 0;
-		Persoona usuario = usuarios.stream().filter( u -> u.tieneTelefono(p)).findFirst().orElse(null);
-		if (usuario == null) return costoTotal;
-		if (usuario != null) {
-			for (Llamada llamada : usuario.getLlamadas()) {
-				double descuentoLlamada = llamada.calcularCosto() *usuario.getPorcentajeDescuento();
-				costoTotal += llamada.calcularCosto() - descuentoLlamada;
-			}
-		}
-		return costoTotal;
+	public double calcularMontoTotalLlamadas(Persoona persona) {
+		return persona.calcularMontoLlamadas();
 	}
 
 	public int cantidadDeUsuarios() {

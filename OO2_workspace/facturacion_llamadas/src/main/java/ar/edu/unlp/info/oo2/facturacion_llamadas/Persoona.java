@@ -17,6 +17,16 @@ public abstract class Persoona {
 	public boolean tieneTelefono(Persoona p) {
 		return this.getTelefono().equals(p.getTelefono());
 	}
+	
+	public double calcularMontoLlamadas() {
+		double costoTotal = 0;
+		for (Llamada llamada : llamadas) {
+				double descuentoLlamada = llamada.calcularCosto() * getPorcentajeDescuento();
+				costoTotal += llamada.calcularCosto() - descuentoLlamada;
+		}
+		return costoTotal;
+		
+	}
 	public List<Llamada> getLlamadas() {
 		return llamadas;
 	}
