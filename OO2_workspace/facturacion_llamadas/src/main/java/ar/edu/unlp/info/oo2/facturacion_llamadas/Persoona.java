@@ -7,7 +7,6 @@ public abstract class Persoona {
 	private List<Llamada> llamadas = new ArrayList<Llamada>();
 	private String nombreApellido;
 	private String telefono;
-	private Persoonal sistema;
 	private double porcentajeDescuento;
 	
 	public Persoona(String nombreApellido, double porcentajeDescuento) {
@@ -17,7 +16,6 @@ public abstract class Persoona {
 	public boolean tieneTelefono(Persoona p) {
 		return this.getTelefono().equals(p.getTelefono());
 	}
-	
 	
 	public double calcularMontoLlamadas() {
 		return llamadas.stream().mapToDouble( llamada -> calcularMontoLlamada(llamada)).reduce(0,Double::sum);
@@ -29,8 +27,11 @@ public abstract class Persoona {
 		return llamada.calcularCosto() - descuentoLlamada;
 	}
 
-
-		
+	public Llamada agregarLlamada(Llamada llamada) {
+		llamadas.add(llamada);
+		return llamada;
+	}
+	
 	public List<Llamada> getLlamadas() {
 		return llamadas;
 	}
@@ -43,12 +44,7 @@ public abstract class Persoona {
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
 	}
-	public Persoonal getSistema() {
-		return sistema;
-	}
-	public void setSistema(Persoonal sistema) {
-		this.sistema = sistema;
-	}
+
 	public double getPorcentajeDescuento() {
 		return porcentajeDescuento;
 	}

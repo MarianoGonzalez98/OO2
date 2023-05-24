@@ -15,8 +15,6 @@ public class Persoonal {
 		return guiaTelefonos.add(str);
 	}
 	
-	
-	//replace temp with query
 	public void asignarTelefono(Persoona usuario) {
 		String telefono = this.getGuia().last();
 		usuario.setTelefono(telefono);
@@ -25,24 +23,22 @@ public class Persoonal {
 	
 	public Persoona registrarUsuario(Persoona usuario) {
 		asignarTelefono(usuario);
-		usuario.setSistema(this); 
 		usuarios.add(usuario);
 		return usuario;
 	}
 	
-	
+	//change signature
 	public boolean eliminarUsuario(Persoona p) {
 		this.guiaTelefonos.add(p.getTelefono());
 		return usuarios.remove(p);
 	}
 	
-	
+	//middleman
 	public Llamada registrarLlamada(Persoona emisor, Llamada llamada) {
-		emisor.getLlamadas().add(llamada);
-		return llamada;
-		
+		return emisor.agregarLlamada(llamada);
 	}
 	
+	//middleman
 	public double calcularMontoTotalLlamadas(Persoona persona) {
 		return persona.calcularMontoLlamadas();
 	}
