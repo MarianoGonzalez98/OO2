@@ -18,18 +18,9 @@ public abstract class Persoona {
 		return this.getTelefono().equals(p.getTelefono());
 	}
 	
-	//falta documentar estos cambios
+	
 	public double calcularMontoLlamadas() {
 		return llamadas.stream().mapToDouble( llamada -> calcularMontoLlamada(llamada)).reduce(0,Double::sum);
-		
-	}
-	
-	public double calcularMontoLlamadasRefactor() {
-		double costoTotal = 0;
-		for (Llamada llamada : llamadas) {
-			costoTotal+=calcularMontoLlamada(llamada);
-		}
-		return costoTotal;
 		
 	}
 	
@@ -37,16 +28,9 @@ public abstract class Persoona {
 		double descuentoLlamada = llamada.calcularCosto() * getPorcentajeDescuento();
 		return llamada.calcularCosto() - descuentoLlamada;
 	}
-	public double calcularMontoLlamadasViejo() {
 
-		double costoTotal = 0;
-		for (Llamada llamada : llamadas) {
-				double descuentoLlamada = llamada.calcularCosto() * getPorcentajeDescuento();
-				costoTotal += llamada.calcularCosto() - descuentoLlamada;
-		}
-		return costoTotal;
+
 		
-	}
 	public List<Llamada> getLlamadas() {
 		return llamadas;
 	}

@@ -10,36 +10,32 @@ public class Persoonal {
 	List<Persoona> usuarios = new ArrayList<Persoona>();
 	private SortedSet<String> guiaTelefonos = new TreeSet<String>();
 	
-	public void agregarTelefono(String str) {
-		boolean encontre = this.getGuia().contains(str);
-		if (!encontre) {
-			this.getGuia().add(str);
-		}
-		else {
-			encontre= false;
-		}
+	//change signature
+	public boolean agregarTelefono(String str) {
+		return guiaTelefonos.add(str);
 	}
 	
-	public Persoona registrarUsuario(Persoona usuario) {
+	
+	//replace temp with query
+	public void asignarTelefono(Persoona usuario) {
 		String telefono = this.getGuia().last();
 		usuario.setTelefono(telefono);
 		this.getGuia().remove(telefono);
+	}
+	
+	public Persoona registrarUsuario(Persoona usuario) {
+		asignarTelefono(usuario);
 		usuario.setSistema(this); 
 		usuarios.add(usuario);
 		return usuario;
 	}
 	
+	
 	public boolean eliminarUsuario(Persoona p) {
-		List<Persoona> l = p.getSistema().usuarios.stream().filter(persona -> persona != p).collect(Collectors.toList());
-		boolean borre = false;
-		if (l.size() < usuarios.size()) {
-			this.usuarios = l;
-			this.getGuia().add(p.getTelefono());
-			borre = true;
-		}
-		return borre;
-		
+		this.guiaTelefonos.add(p.getTelefono());
+		return usuarios.remove(p);
 	}
+	
 	
 	public Llamada registrarLlamada(Persoona emisor, Llamada llamada) {
 		emisor.getLlamadas().add(llamada);
