@@ -7,12 +7,16 @@ import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 public class Persoonal {
-	List<Persoona> usuarios = new ArrayList<Persoona>();
+	
+	private List<Persoona> usuarios = new ArrayList<Persoona>();
 	private SortedSet<String> guiaTelefonos = new TreeSet<String>();
 	
-	//change signature
-	public boolean agregarTelefono(String str) {
-		return guiaTelefonos.add(str);
+	public List<Persoona> getUsuarios() {
+		return this.usuarios;
+	}
+	
+	public boolean agregarTelefono(String telefono) {
+		return guiaTelefonos.add(telefono);
 	}
 	
 	public void asignarTelefono(Persoona usuario) {
@@ -27,20 +31,9 @@ public class Persoonal {
 		return usuario;
 	}
 	
-	//change signature
-	public boolean eliminarUsuario(Persoona p) {
-		this.guiaTelefonos.add(p.getTelefono());
-		return usuarios.remove(p);
-	}
-	
-	//middleman
-	public Llamada registrarLlamada(Persoona emisor, Llamada llamada) {
-		return emisor.agregarLlamada(llamada);
-	}
-	
-	//middleman
-	public double calcularMontoTotalLlamadas(Persoona persona) {
-		return persona.calcularMontoLlamadas();
+	public boolean eliminarUsuario(Persoona usuario) {
+		this.guiaTelefonos.add(usuario.getTelefono());
+		return usuarios.remove(usuario);
 	}
 
 	public int cantidadDeUsuarios() {
@@ -54,7 +47,7 @@ public class Persoonal {
 	public SortedSet<String> getGuia() {
 		return guiaTelefonos;
 	}
-
+	
 	public void setGuia(SortedSet<String> guia) {
 		this.guiaTelefonos = guia;
 	}

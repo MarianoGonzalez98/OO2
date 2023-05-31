@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Persoona {
+	
 	private List<Llamada> llamadas = new ArrayList<Llamada>();
 	private String nombreApellido;
 	private String telefono;
@@ -12,9 +13,6 @@ public abstract class Persoona {
 	public Persoona(String nombreApellido, double porcentajeDescuento) {
 		this.nombreApellido = nombreApellido;
 		this.porcentajeDescuento = porcentajeDescuento;
-	}
-	public boolean tieneTelefono(Persoona p) {
-		return this.getTelefono().equals(p.getTelefono());
 	}
 	
 	public double calcularMontoLlamadas() {
@@ -35,12 +33,15 @@ public abstract class Persoona {
 	public List<Llamada> getLlamadas() {
 		return llamadas;
 	}
+	
 	public String getNombreApellido() {
 		return nombreApellido;
 	}
+	
 	public String getTelefono() {
 		return telefono;
 	}
+	
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
 	}

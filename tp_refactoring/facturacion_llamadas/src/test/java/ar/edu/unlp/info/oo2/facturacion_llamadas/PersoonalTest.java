@@ -24,23 +24,23 @@ class PersoonalTest {
 		this.emisorPersonaJuridica = sistema.registrarUsuario(new PersonaJuridica("17555222", "Felfort"));
 		this.remitentePersonaJuridica = sistema.registrarUsuario(new PersonaJuridica("25765432", "Moovistar"));
 		
-		this.sistema.registrarLlamada(emisorPersonaJuridica,new LlamadaNacional(10));
-		this.sistema.registrarLlamada(emisorPersonaJuridica,new LlamadaInternacional(8));
-		this.sistema.registrarLlamada(emisorPersonaJuridica, new LlamadaNacional(5));
-		this.sistema.registrarLlamada(emisorPersonaJuridica, new LlamadaInternacional(7));
-		this.sistema.registrarLlamada(emisorPersonaFisca, new LlamadaNacional(15));
-		this.sistema.registrarLlamada(emisorPersonaFisca, new LlamadaInternacional(45));
-		this.sistema.registrarLlamada(emisorPersonaFisca, new LlamadaNacional(13));
-		this.sistema.registrarLlamada(emisorPersonaFisca, new LlamadaInternacional(17));
+		this.emisorPersonaJuridica.agregarLlamada(new LlamadaNacional(emisorPersonaJuridica, remitentePersonaFisica, 10));
+		this.emisorPersonaJuridica.agregarLlamada(new LlamadaInternacional(emisorPersonaJuridica, remitentePersonaFisica, 8));
+		this.emisorPersonaJuridica.agregarLlamada(new LlamadaNacional(emisorPersonaJuridica, remitentePersonaJuridica, 5));
+		this.emisorPersonaJuridica.agregarLlamada(new LlamadaInternacional(emisorPersonaJuridica, remitentePersonaJuridica, 7));
+		this.emisorPersonaFisca.agregarLlamada(new LlamadaNacional(emisorPersonaFisca, remitentePersonaFisica, 15));
+		this.emisorPersonaFisca.agregarLlamada(new LlamadaInternacional(emisorPersonaFisca, remitentePersonaFisica, 45));
+		this.emisorPersonaFisca.agregarLlamada(new LlamadaNacional(emisorPersonaFisca, remitentePersonaJuridica, 13));
+		this.emisorPersonaFisca.agregarLlamada(new LlamadaInternacional(emisorPersonaFisca, remitentePersonaJuridica, 17));
 		
 	}
 
 	@Test
 	void testcalcularMontoTotalLlamadas() {
-		assertEquals(this.sistema.calcularMontoTotalLlamadas(emisorPersonaFisca), 15105.640000000001);
-		assertEquals(this.sistema.calcularMontoTotalLlamadas(emisorPersonaJuridica), 3131.7825000000003);
-		assertEquals(this.sistema.calcularMontoTotalLlamadas(remitentePersonaFisica), 0);
-		assertEquals(this.sistema.calcularMontoTotalLlamadas(remitentePersonaJuridica), 0);
+		assertEquals(this.emisorPersonaFisca.calcularMontoLlamadas(), 15105.640000000001);
+		assertEquals(this.emisorPersonaJuridica.calcularMontoLlamadas(), 3131.7825000000003);
+		assertEquals(remitentePersonaFisica.calcularMontoLlamadas(), 0);
+		assertEquals(this.remitentePersonaJuridica.calcularMontoLlamadas(), 0);
 	}
 	
 	@Test
