@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio12VolumenSuperficie.Cilindro"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio13ClienteDeCorreo.Email"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio13ClienteDeCorreo.Carpeta"/>
-    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio13ClienteDeCorreo.ClienteDeCorreo"/>
     <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio14IntervaloDeTiempo.DateLapse"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.ejercicio14IntervaloDeTiempo.IDateLapse"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.facturacion_llamadas.GuiaTelefonica"/>
     <fullyQualifiedTypeName name="ar.edu.unlp.info.oo2.facturacion_llamadas.Llamada"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_22_MonitoreoIndustrial.MixingTank"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_22_MonitoreoIndustrial.ProcessStep"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_22_MonitoreoIndustrial.LightMix"/>
+    <fullyQualifiedTypeName name="ar.edu.unlp.info.oo1.tp1_22_MonitoreoIndustrial.MixingTankStub"/>
 </qualifiedTypeNameHistroy>
