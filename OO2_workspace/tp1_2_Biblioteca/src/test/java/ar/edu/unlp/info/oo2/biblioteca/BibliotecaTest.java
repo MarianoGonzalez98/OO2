@@ -11,7 +11,7 @@ public class BibliotecaTest {
 	Biblioteca biblioteca, bibliotecaVacia;
 	
 	@BeforeEach
-	void setUp() throws Exception {
+	void setUp()  {
 		biblioteca = new Biblioteca();
 		bibliotecaVacia = new Biblioteca();
 		biblioteca.setExporter(new JSONadapter());

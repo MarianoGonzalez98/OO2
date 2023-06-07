@@ -33,6 +33,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ar.edu.unlp.info.oo1.tp1_15_HomeWeather"/>
+			<item value="ar.edu.unlp.info.oo1.patrones_varios"/>
+			<item value="ar.edu.unlp.info.oo1.tp1_19_PersonajesJuegoRol"/>
 			<item value="ar.edu.unlp.info.oo1.tp1_22_MonitoreoIndustrial"/>
 			<item value="ar.edu.unlp.info.oo1.tp1_14_FileManager"/>
 			<item value="ar.edu.unlp.info.oo1.tp1_13_AccesoBD"/>
@@ -45,14 +48,14 @@
 			<item value="ar.edu.unlp.info.oo1.tp_1_3_MediaPlayer"/>
 			<item value="ar.edu.unlp.info.oo1.tp1_1_Red_social"/>
 			<item value="ar.edu.unlp.info.oo1.ejercicio18LiquidacionHaberes"/>
-			<item value="ar.edu.unlp.info.oo1.ejercicio17Llamadas"/>
-			<item value="ar.edu.unlp.info.oo1.ejercicio15Alquiler"/>
-			<item value="ar.edu.unlp.info.oo1.ejercicio14IntervaloDeTiempo"/>
 		</list>
 		<list key="groupId">
 			<item value="ar.edu.unlp.info.oo1"/>
 		</list>
 		<list key="artifactId">
+			<item value="tp1_15_HomeWeather"/>
+			<item value="patrones_varios"/>
+			<item value="tp1_19_PersonajesJuegoRol"/>
 			<item value="tp1_22_MonitoreoIndustrial"/>
 			<item value="tp1_14_FileManager"/>
 			<item value="tp1_13_AccesoBD"/>
@@ -65,9 +68,6 @@
 			<item value="tp_1_3_MediaPlayer"/>
 			<item value="tp1_1_Red_social"/>
 			<item value="ejercicio18LiquidacionHaberes"/>
-			<item value="ejercicio17Llamadas"/>
-			<item value="ejercicio15Alquiler"/>
-			<item value="ejercicio14IntervaloDeTiempo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
